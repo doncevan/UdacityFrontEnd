@@ -1,0 +1,12 @@
+.box {
+    border: 5px solid green;
+    margin: 1em;
+    padding: 0.5em;
+    width: 100px;
+    height: 50px;
+    float: right;
+}
+.red_text {
+    color: red;
+    font-size: 120%;
+}
