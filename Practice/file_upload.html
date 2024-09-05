@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>File upload</h1>
+
+    <p>Show a file-select field which allows a file to be chosen for upload:</p>
+    <form id="fileForm">
+      <label for="myfile">Select a file:</label>
+      <input type="file" id="myfile" name="myfile" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p id="output"></p>
+
+    <script>
+      document
+        .getElementById("fileForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent the default form submission
+          const fileInput = document.getElementById("myfile");
+          const fileName =
+            fileInput.files.length > 0
+              ? fileInput.files[0].name
+              : "No file selected";
+          document.getElementById("output").textContent =
+            "Selected file: " + fileName;
+        });
+    </script>
+  </body>
+</html>
