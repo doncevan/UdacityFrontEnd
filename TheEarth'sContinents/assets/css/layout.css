@@ -1,4 +1,3 @@
-/* Layout CSS */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -44,11 +43,11 @@
 }
 
 .blog-post {
-  padding: 20px;
+  padding: 25px;
 }
 
 img {
-  max-width: 99%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -94,6 +93,10 @@ img {
 #social-sharing {
   text-align: center;
   margin: 20px 0;
+}
+
+#social-sharing h2 {
+  padding: 10px;
 }
 
 #social-sharing ul {
