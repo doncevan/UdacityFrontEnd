@@ -1,0 +1,88 @@
+/* Layout CSS */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: #333;
+}
+
+.blog-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.blog-post-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.blog-post-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog-post {
+  padding: 20px;
+}
+
+.related-articles {
+  margin-top: 40px;
+}
+
+.related-articles ul {
+  list-style: none;
+}
+
+.related-articles li {
+  margin-bottom: 10px;
+}
+
+.subscribe-form {
+  margin-top: 40px;
+}
+
+.subscribe-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe-form label {
+  margin-bottom: 5px;
+}
+
+.subscribe-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.subscribe-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
