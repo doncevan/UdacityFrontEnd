@@ -48,10 +48,9 @@
 }
 
 img {
-  max-width: 100%;
+  max-width: 99%;
   height: auto;
 }
-
 
 .related-articles {
   margin-top: 40px;
